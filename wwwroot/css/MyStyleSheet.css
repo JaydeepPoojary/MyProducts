@@ -1,0 +1,58 @@
+﻿.btn {
+    width: 100px;
+}
+nav {
+    background-color: wheat;
+    height: auto;
+    border-radius: 30px;
+    padding: 1rem;
+}
+
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: wheat;
+}
+
+li {
+    float: left;
+}
+
+    li a {
+        display: block;
+        color: white;
+        font-weight:500;
+        font-size:medium;
+        text-align: center;
+        text-decoration: none;
+    }
+
+        /* Change the link color to #111 (black) on hover */
+        li a:hover {
+            background-color: lightgrey;
+        }
+
+
+
+
+
